@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AttendanceCompose</string>
+    <string name="onboarding_record_attendance_message">Record Your Attendance From Anywhere You Like</string>
+    <string name="onboarding_attendance_history_message">Keeping Track Of Attendance Records Is Easier Than Ever</string>
+    <string name="onboarding_available_office_message">Discover Selection Of Available Office</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="login_screen_title">Login</string>
+    <string name="login_screen_description">Just a step away from easier way to record attendance</string>
+    <string name="register_screen_title">Register New Account</string>
+    <string name="register_screen_description">Just a minute away from a fresh way to record attendance</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="started">Get Started</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="check_in">Check In</string>
+    <string name="check_out">Check Out</string>
+    <string name="attendance">Attendance</string>
+    <string name="location">Location</string>
+    <string name="attendance_history">Attendance History</string>
+    <string name="general">General</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="loading">Loading</string>
+    <string name="empty_statement">Sorry, data is empty…</string>
+    <string name="refresh">Refresh</string>
+</resources>

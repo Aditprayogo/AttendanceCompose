@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "48547541078",
+    "project_id": "attendancecompose",
+    "storage_bucket": "attendancecompose.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48547541078:android:42c51caed8e6d050de0bf7",
+        "android_client_info": {
+          "package_name": "com.aditprayogo.core"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWoHJTgEkmrTeFWu_yynlyvDsLEuhqQdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
