@@ -7,6 +7,7 @@ import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.aditprayogo.attendancecompose.ui.screens.AttendanceFirebaseScreen
 import com.aditprayogo.attendancecompose.ui.theme.AttendanceComposeTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -15,13 +16,10 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         installSplashScreen()
-        enableEdgeToEdge(
-            statusBarStyle = SystemBarStyle.dark(Color.TRANSPARENT)
-        )
         setContent {
             AttendanceComposeTheme {
                 // A surface container using the 'background' color from the theme
-
+                AttendanceFirebaseScreen()
             }
         }
     }

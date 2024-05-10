@@ -50,12 +50,6 @@ fun LoginScreen(
     val context = LocalContext.current
 
     LaunchedEffect(Unit) {
-        (context as ComponentActivity).enableEdgeToEdge(
-            statusBarStyle = SystemBarStyle.dark(R.color.statusBarColor)
-        )
-    }
-
-    LaunchedEffect(Unit) {
         viewModel.message.collect {
             Toast.makeText(context, it, Toast.LENGTH_SHORT).show()
         }

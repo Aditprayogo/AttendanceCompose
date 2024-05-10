@@ -9,7 +9,9 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -34,21 +36,22 @@ fun AuthTemplate(
 ) {
     Column(
         modifier = modifier
+            .fillMaxSize()
             .imePadding()
             .paint(
                 painter = painterResource(R.drawable.bg_auth),
                 contentScale = ContentScale.FillBounds
             )
-            .statusBarsPadding()
             .padding(horizontal = 8.dp)
-            .fillMaxSize()
+
     ) {
         Spacer(Modifier.height(20.dp))
         Column(
-            modifier = Modifier.padding(
-                horizontal = 20.dp,
-                vertical = 30.dp
-            )
+            modifier = Modifier
+                .padding(
+                    horizontal = 20.dp,
+                    vertical = 30.dp
+                )
         ) {
             Text(
                 text = screenTitle,
@@ -79,6 +82,8 @@ fun AuthTemplate(
                     start = 32.dp,
                     end = 32.dp
                 )
+                .verticalScroll(rememberScrollState())
+
         ) {
             content()
         }
